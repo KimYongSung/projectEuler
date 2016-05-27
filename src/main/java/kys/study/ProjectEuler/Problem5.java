@@ -57,7 +57,11 @@ public class Problem5 {
 	}
 	
 	/**
+	 * <pre>
 	 * 최소공배수 구하기
+	 * 최소공배수 = (a*b) / 최대공약수
+	 * 최대공약수 = (a*b) / 최소공배수
+	 * </pre>
 	 * @param a
 	 * @param b
 	 * @return
