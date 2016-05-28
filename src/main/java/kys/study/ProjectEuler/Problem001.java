@@ -5,7 +5,7 @@ package kys.study.ProjectEuler;
  * 1000보다 작은 자연수 중에서 3 또는 5의 배수를 모두 더하면 얼마일까요?
  * @author kim
  */
-public class Problem1 {
+public class Problem001 {
 	public void problem1(){
 		int number = 1000;
 		int total = 0;

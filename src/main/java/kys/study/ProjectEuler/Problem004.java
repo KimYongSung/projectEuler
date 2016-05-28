@@ -9,7 +9,7 @@ package kys.study.ProjectEuler;
  * @author kim
  *
  */
-public class Problem4 {
+public class Problem004 {
 	
 	/**
 	 * 대칭수는 11의 mod 값이 0이다. <br>

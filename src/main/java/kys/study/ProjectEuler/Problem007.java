@@ -9,7 +9,7 @@ package kys.study.ProjectEuler;
  * @author kim
  * @date 2016. 5. 27.
  */
-public class Problem7 {
+public class Problem007 {
 	
 	
 	/**

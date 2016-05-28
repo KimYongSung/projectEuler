@@ -6,7 +6,7 @@ package kys.study.ProjectEuler;
  * 짝수이면서 4백만 이하인 모든 항을 더하면 얼마가 됩니까?
  * @author kim
  */
-public class Problem2 {
+public class Problem002 {
 	
 	/**
 	 * 재귀함수 사용하여 파보나치 구현

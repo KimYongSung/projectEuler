@@ -8,7 +8,7 @@ package kys.study.ProjectEuler;
  * @author kim
  * @date 2016. 5. 23.
  */
-public class Problem5 {
+public class Problem005 {
 	
 	public void problem5(){
 		problem5_1();

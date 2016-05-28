@@ -13,7 +13,7 @@ package kys.study.ProjectEuler;
  * @author kim
  * @date 2016. 5. 23.
  */
-public class Problem6 {public Problem6() {
+public class Problem006 {public Problem006() {
 }
 	public void problem6(){
 		System.out.println(sumOfSquare(100) - squareOfSum(100));

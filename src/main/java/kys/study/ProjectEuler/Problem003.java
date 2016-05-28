@@ -9,7 +9,7 @@ package kys.study.ProjectEuler;
  * @author kim
  *
  */
-public class Problem3 {
+public class Problem003 {
 	
 	public void problem3(long num){
 		checkInsu(num);
