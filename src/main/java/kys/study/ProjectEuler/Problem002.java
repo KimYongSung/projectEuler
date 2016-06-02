@@ -23,8 +23,7 @@ public class Problem002 {
 	 * @return 
 	 */
 	private int pibonachiF(int first, int second, int oddTotal){
-		if(first%2 == 0) oddTotal += first;
-		if(second%2 == 0) oddTotal += second;
+		oddTotal = second;
 		return pibonachi(second, first+second ,oddTotal);
 	}
 
@@ -37,8 +36,13 @@ public class Problem002 {
 	 * @param oddTotal	짝수의 총합
 	 * @return
 	 */
-	private int pibonachi(int first, int second, int oddTotal){
+	/*private int pibonachi(int first, int second, int oddTotal){
 		if(second%2 == 0) oddTotal += second;
 		return second >= 4000000 ? oddTotal : pibonachi(second, first+second ,oddTotal);
+	}*/
+	
+	private int pibonachi(int first, int second, int oddTotal){
+		if(second >= 4000000) return oddTotal;
+		return second%2 == 0 ? second + pibonachi(second, first+second ,oddTotal) : pibonachi(second, first+second ,oddTotal);
 	}
 }

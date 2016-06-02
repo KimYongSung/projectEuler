@@ -26,7 +26,7 @@ public class Problem006 {public Problem006() {
 	 * @return
 	 */
 	public long sumOfSquare(long num){
-		long sum = (1+num)*num/2;
+		long sum = (num+1)*num/2;
 		return sum * sum;
 	}
 	

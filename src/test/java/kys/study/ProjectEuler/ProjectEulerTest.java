@@ -12,8 +12,10 @@ public class ProjectEulerTest {
 	
 	@Test
 	public void Problem2Test(){
+		long preTime = System.currentTimeMillis();
 		Problem002 Problem2 = new Problem002();
 		Problem2.problem2();
+		System.out.println("Time : " + (System.currentTimeMillis() - preTime));
 	}
 	
 	@Test
@@ -89,6 +91,21 @@ public class ProjectEulerTest {
 		long preTime = System.currentTimeMillis();
 		Problem011 Problem = new Problem011();
 		Problem.problem();
+		System.out.println("Time : " + (System.currentTimeMillis() - preTime));
+	}
+	
+	@Test
+	public void Problem12Test(){
+		long preTime = System.currentTimeMillis();
+		Problem012 Problem = new Problem012();
+		Problem.problem();
+		System.out.println("Time : " + (System.currentTimeMillis() - preTime));
+	}
+	
+	@Test
+	public void Problem12Test2(){
+		long preTime = System.currentTimeMillis();
+		Problem012 Problem = new Problem012();
 		System.out.println("Time : " + (System.currentTimeMillis() - preTime));
 	}
 }
