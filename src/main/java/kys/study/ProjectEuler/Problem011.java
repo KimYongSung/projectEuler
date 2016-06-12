@@ -56,8 +56,18 @@ public class Problem011 {
 			{1, 70, 54, 71, 83, 51, 54, 69, 16, 92, 33, 48, 61, 43, 52, 1, 89, 19, 67, 48},
 	};
 
+	/**
+	 * 정사각형 2차원 배열의 면의 길이 
+	 */
 	private final int ARR_LENGTH = 20;
+	/**
+	 * 연속적으로 곱하는 숫자의 갯수
+	 */
 	private final int MAX_MULTIPLE_COUNT = 4;
+	
+	/**
+	 * 최대 체크해야할 위치
+	 */
 	private final int LIMIT = ARR_LENGTH - MAX_MULTIPLE_COUNT+1;
 
 	public void problem(){

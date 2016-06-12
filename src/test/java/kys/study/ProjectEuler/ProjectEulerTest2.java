@@ -10,4 +10,12 @@ public class ProjectEulerTest2 {
 		Problem.problem();
 		System.out.println("Time : " + (System.currentTimeMillis() - preTime));
 	}
+	
+	@Test
+	public void Problem14(){
+		long preTime = System.currentTimeMillis();
+		Problem014 Problem = new Problem014();
+		Problem.problem();
+		System.out.println("Time : " + (System.currentTimeMillis() - preTime));
+	}
 }
